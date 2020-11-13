@@ -1,0 +1,194 @@
+/*
+Theme Name: Azen Child
+Theme URI: http://azen.physcode.com/
+Author: Physcode
+Author URI: http://physcode.com/
+Description: Description
+Version: 1.0.0
+Template:  azen
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: azen
+Tags: two-columns, left-sidebar, right-sidebar, editor-style, rtl-language-support, sticky-post, theme-options, translation-ready, translation-ready
+
+ */
+
+
+/*custom*/
+p span {
+    font-family: "Muli", Sans-serif!important;
+}
+.header-hp-1 .header-right {
+    display: flex!important;
+}
+.elementor-widget-image-carousel .swiper-container, .elementor-48 .elementor-element.elementor-element-a734c28:not(.elementor-motion-effects-element-type-background), .woocommerce ul.products li.product .wrapper-content-item span.price .woocommerce-Price-amount {
+    background: #53bd34!important;
+}
+.wrapper-footer {
+    background-color: #6b6c6e!important;
+    color: #ebebeb!important;
+}
+.elementor-column-wrap.elementor-element-populated input.submit {
+    background: #e11919!important;
+	color: #ffff!important;
+	font-weight: bold!important;
+}
+.sc-testimonials .owl-dots button.active {
+    background: #e11919!important;
+    border: 1px solid #e11919!important;
+}
+.sc-testimonials .owl-dots button {
+	border: 1px solid #e11919!important;
+}
+.sc-testimonials .testimonials-detail i {
+    color: #e11919!important;
+}
+button.single_add_to_cart_button.button.alt, .woocommerce .button.wc-forward, button#place_order {
+    background: #6dab3c!important;
+    border: 1px solid #6dab3c!important;
+}
+button.single_add_to_cart_button.button.alt:hover , .woocommerce .button.wc-forward:hover, button#place_order:hover {
+    background: #000!important;
+    border: 1px solid #000!important;
+	color: #fff!important;
+	transition: 0.5s;
+}
+a.quick-view:hover , a.add_to_wishlist.single_add_to_wishlist:hover , a.button.product_type_simple.add_to_cart_button.ajax_add_to_cart:hover, 
+.woocommerce ul.products li.product .product-image .box-hover .yith-wcwl-add-to-wishlist a:hover, .woocommerce-page ul.products li.product .product-image .box-hover .yith-wcwl-add-to-wishlist a:hover {
+    background: #e11919!important;
+}
+.woocommerce .woocommerce-message, .woocommerce-page .woocommerce-message, .woocommerce .woocommerce-error, .woocommerce-page .woocommerce-error {
+    border-top-color: #6dab3c!important;
+}
+.woocommerce ul.products li.product .product-image .box-hover .yith-wcwl-add-to-wishlist a.add_to_wishlist.single_add_to_wishlist:before {
+	width: 100%!important;
+}
+.site-header {
+	border: transparent!important;
+}
+.sc-testimonials .testimonials-detail p {
+    font-size: 14px!important;
+    color: #7a7a7a!important;
+    font-weight: 700!important;
+}
+p {
+	font-size: 14px!important;
+    color: #7a7a7a!important;
+	font-weight: 700!important;
+
+}
+div#wrapper-footer p {
+    color: #ffff!important;
+}
+.elementor-column.elementor-col-50.elementor-inner-column.elementor-element.elementor-element-84040ed.bg-newletter-hp1 p {
+    color: #ffff!important;
+}
+.header-hp-1 .logo {
+    width: 170px!important;
+}
+.header-hp-1 .menu-desktop-inner .main-menu .navmenu > .menu-item > a {
+	font-weight: bold!important;
+}
+.search-overlay .closeicon:before {
+    position: absolute;
+    left: 15px;
+    content: 'Cerrar ';
+    height: 24px;
+    width: 1px;
+    color: #959595;
+    font-size: 18px;
+}
+ul.phys-breadcrumb a, span.nobr {
+    color: #6dab3c!important;
+    font-weight: bold!important;
+}
+.woocommerce-wishlist.woocommerce table.wishlist_table .product-remove .remove_from_wishlist {
+	color: #e11919!important;
+}
+.woocommerce ul.products li.product .product-image .box-hover .yith-wcwl-add-to-wishlist a:hover {
+    color: #fff!important;
+    background-color: #e11919!important;
+}
+p.woocommerce-notice.woocommerce-notice--success.woocommerce-thankyou-order-received {
+    color: #6dab3c!important;
+}
+.breadcrumb-contact-us.breadcrumb-section.section-box {
+    background-image: url("http://localhost/azen/wp-content/uploads/2020/11/103378.jpg")!important;
+}
+
+.yith-wcwl-add-to-wishlist a:hover{
+	background-color: #e11919!important;
+	
+}
+.comments-area .comment-respond .form-submit input#submit {
+    background: #6dab3c !important;
+    color: #fff !important;
+    border: 1px solid #6dab3c !important;
+}
+.comments-area .comment-respond .form-submit input#submit:hover {
+    background: #000 !important;
+    color: #fff !important;
+    border: 1px solid #000 !important;
+}
+/*icono para ver
+.woocommerce ul.products li.product .product-image .box-hover a.add_to_cart_button:before {
+	display: inline-block;
+    font: normal normal normal 14px/42px FontAwesome;
+    content: "👁"!important;
+}
+a.button.product_type_simple:before {
+    display: inline-block;
+    font: normal normal normal 14px/42px FontAwesome;
+    content: "👁"!important;
+}*/
+a.button.product_type_simple:hover {
+    background-color: #e11919 !important;
+}
+.breadcrumb-section .heading_primary {
+	text-transform: capitalize!important;
+}
+section.elementor-section.elementor-top-section.elementor-element.elementor-element-9eb1a93.elementor-section-stretched.elementor-section-full_width.video-homepage.elementor-section-height-default.elementor-section-height-default {
+    display: none!important;
+}
+/*span.price {
+    display: none!important;
+}
+/*display none carrito
+div#woocommerce_widget_cart-1 {
+    display: none!important;
+}*/
+.contact-faq .wpcf7-form > p {
+	color: #fff!important;
+}
+.page-not-found .page-detail .page-inner p {
+    padding: 0 0 20px;
+    font-size: 14px;
+    color: #ffffff!important;
+    font-weight: bold;
+}
+a.add-request-quote-button.button {
+    background-color: #6dab3c!important;
+    color: #fff!important;
+    border-radius: 0!important;
+}
+.woocommerce ul.products li.product .product-image .box-hover .yith-wcwl-add-to-wishlist .yith-wcwl-wishlistexistsbrowse a {
+	background-color: #fff!important;
+	color: #000!important;
+}
+section.elementor-section.elementor-top-section.elementor-element.elementor-element-f3b5a83.elementor-section-stretched.elementor-section-full_width.elementor-section-height-default.elementor-section-height-default {
+    background-color: #53bd34!important;
+}
+.wrap-countdown.is-countdown {
+    display: none!important;
+}
+.comming-soon p {
+    color: #fff!important;
+}
+@media only screen and (min-width: 1025px){
+	.header-hp-1 .menu-desktop-inner .space-header {
+    min-width: 20px!important;
+	}
+	.header-hp-1 .menu-desktop-inner .main-menu .navmenu > .menu-item {
+		padding: 25px 10px!important;
+	}
+}
