@@ -31,6 +31,9 @@ add_filter('ngettext',  'translate_text');
 function translate_text($translated) {
      $translated = str_ireplace('Home',  'Inicio',  $translated);
      $translated = str_ireplace('close',  'Cerrar',  $translated);
+	 $translated = str_ireplace('Product',  'Producto',  $translated);
+     $translated = str_ireplace('productoo',  'producto',  $translated);
+     $translated = str_ireplace('productoos',  'productos',  $translated);
      $translated = str_ireplace('view cart',  'ver carrito',  $translated);
      $translated = str_ireplace('Search here',  'Buscar',  $translated);
      $translated = str_ireplace('No products in the cart.',  'No hay productos en el carrito.',  $translated);
@@ -45,7 +48,6 @@ function translate_text($translated) {
      $translated = str_ireplace('Message',  'Mensaje',  $translated);
      $translated = str_ireplace('Notes on your request',  'Nota de tu cotización',  $translated);
      $translated = str_ireplace('Quantity',  'Cantidad',  $translated);
-     $translated = str_ireplace('Product',  'Producto',  $translated);
      $translated = str_ireplace('There was a problem in sending your request. Please try again.',  'No se pudo enviar cotización. Por favor intente nuevamente',  $translated);
      $translated = str_ireplace('Oops ! Page you are looking for does not exist.',  '¡Oops! Parece que esta pagína no existe',  $translated);
      $translated = str_ireplace('The product is already in quote request list!',  'El Producto ha sido agregado a la lista de cotización',  $translated);
