@@ -84,7 +84,7 @@ div#wrapper-footer p {
     color: #ffff!important;
 }
 .header-hp-1 .logo {
-    width: 170px!important;
+    width: 250px!important;
 }
 .header-hp-1 .menu-desktop-inner .main-menu .navmenu > .menu-item > a {
 	font-weight: bold!important;
@@ -184,11 +184,44 @@ section.elementor-section.elementor-top-section.elementor-element.elementor-elem
 .comming-soon p {
     color: #fff!important;
 }
+button.frm_button_submit {
+    background-color: #53bd34!important;
+    border: 1px solid #53bd34!important;
+    border-radius: 0px!important;
+    padding: 15px 25px!important;
+}
+button.frm_button_submit:hover {
+    background-color: #000!important;
+    border: 1px solid #000!important;
+	color: #fff!important;
+	font-weight: bold;
+    border-radius: 0px!important;
+    padding: 15px 25px!important;
+	transition: 0.5s;
+}
+
+.physc_search .search-overlay .closeicon {
+    right: 100px!important;
+}
+.slider-homepage .tparrows.tp-rightarrow:before {
+	content: 'SIG' !important;
+}
+.slider-homepage .tparrows.tp-leftarrow:before {
+	content: 'ANT' !important;
+}
+li.product {
+    height: 320px!important;
+}
 @media only screen and (min-width: 1025px){
 	.header-hp-1 .menu-desktop-inner .space-header {
     min-width: 20px!important;
 	}
-	.header-hp-1 .menu-desktop-inner .main-menu .navmenu > .menu-item {
-		padding: 25px 10px!important;
-	}
+.header-hp-1 .menu-desktop-inner .main-menu .navmenu > .menu-item {
+    color: #111;
+    float: left;
+    font-weight: 500;
+    font-size: 15px;
+    padding: 30px 15px!important;
+    position: relative;
+}
 }
