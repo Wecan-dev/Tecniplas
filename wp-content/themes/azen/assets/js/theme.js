@@ -139,8 +139,8 @@ var custom_js = {
 		jQuery('.homepage-v6 .search-toggler').on('click', function (e) {
 			jQuery('.search-overlay').css('position','fixed');
 		});
-		jQuery(".featured-layout-2 .slick-prev").html('ANT');
-		jQuery(".woocommerce-pagination .page-numbers .next").html('SIG');
+		jQuery(".featured-layout-2 .slick-prev").html('PREV');
+		jQuery(".woocommerce-pagination .page-numbers .next").html('NEXT');
 	},
 
 	Headerminicart     : function () {

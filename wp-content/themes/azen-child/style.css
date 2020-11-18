@@ -203,12 +203,7 @@ button.frm_button_submit:hover {
 .physc_search .search-overlay .closeicon {
     right: 100px!important;
 }
-.slider-homepage .tparrows.tp-rightarrow:before {
-	content: 'SIG' !important;
-}
-.slider-homepage .tparrows.tp-leftarrow:before {
-	content: 'ANT' !important;
-}
+
 li.product {
     height: 320px!important;
 }

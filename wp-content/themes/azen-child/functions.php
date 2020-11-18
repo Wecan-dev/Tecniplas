@@ -48,8 +48,7 @@ function translate_text($translated) {
      $translated = str_ireplace('Quantity',  'Cantidad',  $translated);
      $translated = str_ireplace('There was a problem in sending your request. Please try again.',  'No se pudo enviar cotización. Por favor intente nuevamente',  $translated);
      $translated = str_ireplace('The product is already in quote request list!',  'El Producto ha sido agregado a la lista de cotización',  $translated);
-   	 $translated = str_ireplace('NEXT',  'SIG',  $translated);
-     $translated = str_ireplace('PREV',  'ANT',  $translated);
+  
 
      return $translated;
 }
