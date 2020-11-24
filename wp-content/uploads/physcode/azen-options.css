@@ -379,7 +379,80 @@ h6, .sc-list-posts .news-details .post-title a, .content-area .content-blog-maso
 }	
 a.add_to_wishlist.single_add_to_wishlist:hover {
     background-color: #fff!important;
-}			
+}	
+.textwidget p {
+    font-weight: normal!important;
+}
+.header-hp-1 .logo {
+    width: 180px!important;
+}
+
+
+.elementor-column.elementor-col-50.elementor-inner-column.elementor-element.elementor-element-84040ed.bg-newletter-hp1 button.frm_button_submit.frm_final_submit, section.elementor-section.elementor-inner-section.elementor-element.elementor-element-b71c366.newletter-content-hp1.elementor-section-boxed.elementor-section-height-default.elementor-section-height-default button.frm_button_submit.frm_final_submit {
+    background: #e11919!important;
+    border: none!important;
+    box-shadow: none!important;
+
+}
+.elementor-column.elementor-col-50.elementor-inner-column.elementor-element.elementor-element-84040ed.bg-newletter-hp1 input, section.elementor-section.elementor-inner-section.elementor-element.elementor-element-b71c366.newletter-content-hp1.elementor-section-boxed.elementor-section-height-default.elementor-section-height-default input {
+    border: 2px solid #fff;
+    background: transparent!important;
+    border-radius: 0px!important;
+    height: 50px!important;
+    color: #fff!important;
+}
+.elementor-column.elementor-col-50.elementor-inner-column.elementor-element.elementor-element-84040ed.bg-newletter-hp1 button.frm_button_submit.frm_final_submit:hover, section.elementor-section.elementor-inner-section.elementor-element.elementor-element-b71c366.newletter-content-hp1.elementor-section-boxed.elementor-section-height-default.elementor-section-height-default button.frm_button_submit.frm_final_submit:hover {
+    background: #000!important;
+    color: #fff!important;
+    border: none!important;
+    transition: 0.5s;
+    box-shadow: none!important;
+
+}
+li.product {
+    min-height: 340px!important;
+}
+.frm_message {
+    background-color: #e11919!important;
+    border: 1px solid #e11919!important;
+}
+section.elementor-section.elementor-inner-section.elementor-element.elementor-element-b71c366.newletter-content-hp1.elementor-section-boxed.elementor-section-height-default.elementor-section-height-default {
+    display: none!important;
+}
+ul.product-categories {
+    text-transform: capitalize!important;
+}
+.primero {
+	display:none;
+}
+#primero:hover .primero {
+	display:block;
+	height: 350px!important;	    
+}
+div#primero {
+    height: 350px!important;
+}
+@media only screen and (min-width: 1025px){
+    .logo img {
+    height: 90px;
+}
+.header-hp-1 .menu-desktop-inner .main-menu .navmenu > .menu-item {
+    color: #111;
+    float: left;
+    font-weight: 500;
+    font-size: 15px;
+    padding: 20px 15px!important;
+    
+}
+.header-hp-1 .logo {
+    display: flex;
+    width: 180px!important;
+    justify-content: center;
+}
+.header-hp-1 .menu-desktop-inner .logo {
+    padding: 0px 0;
+}
+}
 /*.breadcrumb-contact-us.breadcrumb-section.section-box {
-    background-image: url(http://localhost/azen/wp-content/uploads/2020/11/103378.jpg)!important;
-}			*/
+    background-image: url(http://159.89.229.55/Tecniplas/wp-content/uploads/2020/11/103378.jpg)!important;
+}			*/				

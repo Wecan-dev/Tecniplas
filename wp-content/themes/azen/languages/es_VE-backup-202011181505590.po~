@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: Azen\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-12-20 10:53+0000\n"
-"PO-Revision-Date: 2020-11-18 10:14+0000\n"
+"PO-Revision-Date: 2020-11-18 10:16+0000\n"
 "Last-Translator: \n"
 "Language-Team: Español de Venezuela\n"
 "Language: es_VE\n"
@@ -28,7 +28,7 @@ msgstr "Volver al inicio"
 
 #: svn/wp/Theme/azen/comments.php:32
 msgid "Leave a comment"
-msgstr ""
+msgstr "Deja un comentario "
 
 #. 1: number of comments
 #: svn/wp/Theme/azen/comments.php:36
@@ -41,11 +41,11 @@ msgstr[1] ""
 
 #: svn/wp/Theme/azen/comments.php:53 /svn/wp/Theme/azen/comments.php:67
 msgid "Older Comments"
-msgstr ""
+msgstr "Comentarios antiguos "
 
 #: svn/wp/Theme/azen/comments.php:54 /svn/wp/Theme/azen/comments.php:68
 msgid "Newer Comments"
-msgstr ""
+msgstr "Nuevos comentarios"
 
 #: svn/wp/Theme/azen/comments.php:78
 msgid "Comments are closed."
@@ -161,7 +161,7 @@ msgstr ""
 
 #: svn/wp/Theme/azen/inc/init.php:575
 msgid "edit"
-msgstr ""
+msgstr "Editar"
 
 #: svn/wp/Theme/azen/inc/init.php:669 /svn/wp/Theme/azen/inc/init.php:676
 msgid "Blog"

@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: Azen\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-12-20 10:53+0000\n"
-"PO-Revision-Date: 2020-11-18 10:16+0000\n"
+"PO-Revision-Date: 2020-11-18 15:03+0000\n"
 "Last-Translator: \n"
 "Language-Team: Español de Venezuela\n"
 "Language: es_VE\n"
@@ -63,6 +63,7 @@ msgstr ""
 #: svn/wp/Theme/azen/woocommerce/woocommerce.php:168
 msgid "Share "
 msgstr ""
+"Compartir\n"
 
 #: svn/wp/Theme/azen/woocommerce/woocommerce.php:171
 msgid "#facebook"
@@ -175,6 +176,7 @@ msgstr "Resultados  de búsqueda para : %s"
 #: svn/wp/Theme/azen/inc/related-posts.php:24
 msgid "# RELATED POSTS"
 msgstr ""
+"# ARTÍCULOS RELACIONADOS\n"
 
 #: svn/wp/Theme/azen/inc/breadcrumb.php:43
 msgid "Home"
@@ -205,11 +207,11 @@ msgstr ""
 #: svn/wp/Theme/azen/inc/template-tags.php:128
 #: svn/wp/Theme/azen/physc-builder/testimonials/testimonials.php:61
 msgid "BY"
-msgstr ""
+msgstr "Por"
 
 #: svn/wp/Theme/azen/inc/template-tags.php:242
 msgid "Share: "
-msgstr ""
+msgstr "Compartir:"
 
 #. Name of the template
 msgid "Comming Soon"
@@ -493,7 +495,7 @@ msgstr ""
 
 #: svn/wp/Theme/azen/inc/admin/meta-boxes.php:48
 msgid "Quote"
-msgstr ""
+msgstr "Cotizar"
 
 #: svn/wp/Theme/azen/inc/admin/meta-boxes.php:53
 msgid "Author"
@@ -621,6 +623,7 @@ msgstr "Destacados"
 #: svn/wp/Theme/azen/physc-builder/products-tab/products-tab.php:137
 msgid "OnSale"
 msgstr ""
+"En venta\n"
 
 #: svn/wp/Theme/azen/physc-builder/products-tab/products-tab.php:56
 #: svn/wp/Theme/azen/physc-builder/products-tab/products-tab.php:147
@@ -919,6 +922,7 @@ msgstr ""
 #: svn/wp/Theme/azen/inc/admin/options/display.php:247
 msgid "Page 404 Settings"
 msgstr ""
+"Página 404 Configuración\n"
 
 #: svn/wp/Theme/azen/inc/admin/options/display.php:254
 msgid "Background 404"
@@ -943,16 +947,18 @@ msgstr ""
 #: svn/wp/Theme/azen/inc/admin/options/footer.php:48
 msgid "Back To Top"
 msgstr ""
+"Volver arriba\n"
 
 #: svn/wp/Theme/azen/inc/admin/options/footer.php:52
 #: svn/wp/Theme/azen/inc/admin/options/styling.php:13
 msgid "show"
 msgstr ""
+"mostrar\n"
 
 #: svn/wp/Theme/azen/inc/admin/options/footer.php:53
 #: svn/wp/Theme/azen/inc/admin/options/styling.php:14
 msgid "hide"
-msgstr ""
+msgstr "ocultar"
 
 #: svn/wp/Theme/azen/inc/admin/options/social-share.php:3
 msgid "Social Sharing"
@@ -1060,6 +1066,7 @@ msgstr ""
 #: svn/wp/Theme/azen/inc/admin/demo_importer/inc/field_demo_importer.php:119
 msgid "Please Wait..."
 msgstr ""
+"Por favor espera...\n"
 
 #: svn/wp/Theme/azen/inc/admin/demo_importer/inc/field_demo_importer.php:118
 msgid "Imported"
