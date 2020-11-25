@@ -30,6 +30,7 @@ add_filter('ngettext',  'translate_text');
 
 function translate_text($translated) {
      $translated = str_ireplace('Home',  'Inicio',  $translated);
+     $translated = str_ireplace('close',  'Cerrar',  $translated);
 	 $translated = str_ireplace('Product',  'Producto',  $translated);
      $translated = str_ireplace('productoo',  'producto',  $translated);
      $translated = str_ireplace('productoos',  'productos',  $translated);
