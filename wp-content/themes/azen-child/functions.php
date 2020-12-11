@@ -15,7 +15,7 @@
 add_action( 'wp_enqueue_scripts', 'azen_child_enqueue_styles', 11 );
 
 //catalogo
-/*
+
 remove_action( 'woocommerce_after_shop_loop_item', 'woocommerce_template_loop_add_to_cart', 10 );
 
 remove_action( 'woocommerce_single_product_summary', 'woocommerce_template_single_add_to_cart', 30 );
@@ -23,17 +23,22 @@ remove_action( 'woocommerce_single_product_summary', 'woocommerce_template_singl
 remove_action( 'woocommerce_simple_add_to_cart', 'woocommerce_simple_add_to_cart', 30 );
 
 remove_action( 'woocommerce_grouped_add_to_cart', 'woocommerce_grouped_add_to_cart', 30 );
-*/
+
+add_filter( 'woocommerce_get_price_html', 'ocultar_precios' );
+function ocultar_precios( $price ) {
+    return '';
+}
+
 //traducir
 add_filter('gettext',  'translate_text');
 add_filter('ngettext',  'translate_text');
 
 function translate_text($translated) {
+	     $translated = str_ireplace('Quantity',  'Cantidad',  $translated);
+
      $translated = str_ireplace('Home',  'Inicio',  $translated);
      $translated = str_ireplace('close',  'Cerrar',  $translated);
-	 $translated = str_ireplace('Product',  'Producto',  $translated);
-     $translated = str_ireplace('productoo',  'producto',  $translated);
-     $translated = str_ireplace('productoos',  'productos',  $translated);
+
      $translated = str_ireplace('view cart',  'ver carrito',  $translated);
      $translated = str_ireplace('Search here',  'Buscar',  $translated);
      $translated = str_ireplace('Back to inicio',  'Volver al inicio',  $translated);
@@ -49,7 +54,6 @@ function translate_text($translated) {
      $translated = str_ireplace('Quantity',  'Cantidad',  $translated);
      $translated = str_ireplace('There was a problem in sending your request. Please try again.',  'No se pudo enviar cotización. Por favor intente nuevamente',  $translated);
      $translated = str_ireplace('The product is already in quote request list!',  'El Producto ha sido agregado a la lista de cotización',  $translated);
-  
-
      return $translated;
 }
+?>

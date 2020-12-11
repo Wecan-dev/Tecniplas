@@ -15,8 +15,12 @@ Tags: two-columns, left-sidebar, right-sidebar, editor-style, rtl-language-suppo
 
 
 /*custom*/
-p span {
-    font-family: "Muli", Sans-serif!important;
+@font-face {
+  font-family: 'raleway-medium';
+  src: url("../azen/custom/fonts/raleway-medium.woff") format('woff');
+}
+h1,h2,h3, p span {
+    font-family: "raleway-medium"!important;
 }
 .header-hp-1 .header-right {
     display: flex!important;
@@ -60,7 +64,7 @@ a.quick-view:hover , a.add_to_wishlist.single_add_to_wishlist:hover , a.button.p
 .woocommerce .woocommerce-message, .woocommerce-page .woocommerce-message, .woocommerce .woocommerce-error, .woocommerce-page .woocommerce-error {
     border-top-color: #6dab3c!important;
 }
-.woocommerce ul.products li.product .product-image .box-hover .yith-wcwl-add-to-wishlist a.add_to_wishlist.single_add_to_wishlist:before {
+.product-image .box-hover .yith-wcwl-add-to-wishlist a.add_to_wishlist.single_add_to_wishlist:before {
 	width: 100%!important;
 }
 .site-header {
@@ -83,9 +87,9 @@ div#wrapper-footer p {
 .elementor-column.elementor-col-50.elementor-inner-column.elementor-element.elementor-element-84040ed.bg-newletter-hp1 p {
     color: #ffff!important;
 }
-.header-hp-1 .logo {
+/*.header-hp-1 .logo {
     width: 250px!important;
-}
+}*/
 .header-hp-1 .menu-desktop-inner .main-menu .navmenu > .menu-item > a {
 	font-weight: bold!important;
 }
@@ -112,9 +116,9 @@ ul.phys-breadcrumb a, span.nobr {
 p.woocommerce-notice.woocommerce-notice--success.woocommerce-thankyou-order-received {
     color: #6dab3c!important;
 }
-.breadcrumb-contact-us.breadcrumb-section.section-box {
+/*.breadcrumb-contact-us.breadcrumb-section.section-box {
     background-image: url("http://localhost/azen/wp-content/uploads/2020/11/103378.jpg")!important;
-}
+}*/
 
 .yith-wcwl-add-to-wishlist a:hover{
 	background-color: #e11919!important;
@@ -204,9 +208,9 @@ button.frm_button_submit:hover {
     right: 100px!important;
 }
 
-li.product {
+/*li.product {
     height: 320px!important;
-}
+}*/
 @media only screen and (min-width: 1025px){
 	.header-hp-1 .menu-desktop-inner .space-header {
     min-width: 20px!important;
@@ -219,4 +223,7 @@ li.product {
     padding: 30px 15px!important;
     position: relative;
 }
+}
+.inner-item-product {
+    margin: 15px;
 }

@@ -1,0 +1,260 @@
+2020-12-02T15:52:57+00:00 CRITICAL Uncaught Error: Call to a member function get_product_subtotal() on null in /var/www/html/Tecniplas/wp-content/plugins/yith-woocommerce-request-a-quote/templates/request-quote-view.php:144
+Stack trace:
+#0 /var/www/html/Tecniplas/wp-content/plugins/woocommerce/includes/wc-core-functions.php(344): include()
+#1 /var/www/html/Tecniplas/wp-content/plugins/yith-woocommerce-request-a-quote/templates/request-quote.php(26): wc_get_template('request-quote-v...', Array, '', '/var/www/html/T...')
+#2 /var/www/html/Tecniplas/wp-content/plugins/woocommerce/includes/wc-core-functions.php(344): include('/var/www/html/T...')
+#3 /var/www/html/Tecniplas/wp-content/plugins/yith-woocommerce-request-a-quote/includes/class.yith-ywraq-shortcodes.php(46): wc_get_template('request-quote.p...', Array, '', '/var/www/html/T...')
+#4 /var/www/html/Tecniplas/wp-includes/shortcodes.php(343): YITH_YWRAQ_Shortcodes->request_quote_list('', '', 'yith_ywraq_requ...')
+#5 [internal function]: do_shortcode_tag(Array)
+#6 /var/www/html/Tecniplas/wp-inc en /var/www/html/Tecniplas/wp-content/plugins/yith-woocommerce-request-a-quote/templates/request-quote-view.php en la línea 144
+
+2020-12-02T15:58:13+00:00 CRITICAL Uncaught Error: Call to a member function get_product_subtotal() on null in /var/www/html/Tecniplas/wp-content/plugins/yith-woocommerce-request-a-quote/templates/request-quote-view.php:144
+Stack trace:
+#0 /var/www/html/Tecniplas/wp-content/plugins/woocommerce/includes/wc-core-functions.php(344): include()
+#1 /var/www/html/Tecniplas/wp-content/plugins/yith-woocommerce-request-a-quote/templates/request-quote.php(26): wc_get_template('request-quote-v...', Array, '', '/var/www/html/T...')
+#2 /var/www/html/Tecniplas/wp-content/plugins/woocommerce/includes/wc-core-functions.php(344): include('/var/www/html/T...')
+#3 /var/www/html/Tecniplas/wp-content/plugins/yith-woocommerce-request-a-quote/includes/class.yith-ywraq-shortcodes.php(46): wc_get_template('request-quote.p...', Array, '', '/var/www/html/T...')
+#4 /var/www/html/Tecniplas/wp-includes/shortcodes.php(343): YITH_YWRAQ_Shortcodes->request_quote_list('', '', 'yith_ywraq_requ...')
+#5 [internal function]: do_shortcode_tag(Array)
+#6 /var/www/html/Tecniplas/wp-inc en /var/www/html/Tecniplas/wp-content/plugins/yith-woocommerce-request-a-quote/templates/request-quote-view.php en la línea 144
+
+2020-12-02T16:08:16+00:00 CRITICAL Uncaught Error: Call to a member function get_product_subtotal() on null in /var/www/html/Tecniplas/wp-content/plugins/yith-woocommerce-request-a-quote/templates/request-quote-view.php:144
+Stack trace:
+#0 /var/www/html/Tecniplas/wp-content/plugins/woocommerce/includes/wc-core-functions.php(344): include()
+#1 /var/www/html/Tecniplas/wp-content/plugins/yith-woocommerce-request-a-quote/templates/request-quote.php(26): wc_get_template('request-quote-v...', Array, '', '/var/www/html/T...')
+#2 /var/www/html/Tecniplas/wp-content/plugins/woocommerce/includes/wc-core-functions.php(344): include('/var/www/html/T...')
+#3 /var/www/html/Tecniplas/wp-content/plugins/yith-woocommerce-request-a-quote/includes/class.yith-ywraq-shortcodes.php(46): wc_get_template('request-quote.p...', Array, '', '/var/www/html/T...')
+#4 /var/www/html/Tecniplas/wp-includes/shortcodes.php(343): YITH_YWRAQ_Shortcodes->request_quote_list('', '', 'yith_ywraq_requ...')
+#5 [internal function]: do_shortcode_tag(Array)
+#6 /var/www/html/Tecniplas/wp-inc en /var/www/html/Tecniplas/wp-content/plugins/yith-woocommerce-request-a-quote/templates/request-quote-view.php en la línea 144
+
+2020-12-02T16:09:02+00:00 CRITICAL Uncaught Error: Call to a member function get_product_subtotal() on null in /var/www/html/Tecniplas/wp-content/plugins/yith-woocommerce-request-a-quote/templates/request-quote-view.php:144
+Stack trace:
+#0 /var/www/html/Tecniplas/wp-content/plugins/woocommerce/includes/wc-core-functions.php(344): include()
+#1 /var/www/html/Tecniplas/wp-content/plugins/yith-woocommerce-request-a-quote/templates/request-quote.php(26): wc_get_template('request-quote-v...', Array, '', '/var/www/html/T...')
+#2 /var/www/html/Tecniplas/wp-content/plugins/woocommerce/includes/wc-core-functions.php(344): include('/var/www/html/T...')
+#3 /var/www/html/Tecniplas/wp-content/plugins/yith-woocommerce-request-a-quote/includes/class.yith-ywraq-shortcodes.php(46): wc_get_template('request-quote.p...', Array, '', '/var/www/html/T...')
+#4 /var/www/html/Tecniplas/wp-includes/shortcodes.php(343): YITH_YWRAQ_Shortcodes->request_quote_list('', '', 'yith_ywraq_requ...')
+#5 [internal function]: do_shortcode_tag(Array)
+#6 /var/www/html/Tecniplas/wp-inc en /var/www/html/Tecniplas/wp-content/plugins/yith-woocommerce-request-a-quote/templates/request-quote-view.php en la línea 144
+
+2020-12-02T16:19:01+00:00 CRITICAL Uncaught Error: Call to a member function get_product_subtotal() on null in /var/www/html/Tecniplas/wp-content/plugins/yith-woocommerce-request-a-quote/templates/request-quote-view.php:144
+Stack trace:
+#0 /var/www/html/Tecniplas/wp-content/plugins/woocommerce/includes/wc-core-functions.php(344): include()
+#1 /var/www/html/Tecniplas/wp-content/plugins/yith-woocommerce-request-a-quote/templates/request-quote.php(26): wc_get_template('request-quote-v...', Array, '', '/var/www/html/T...')
+#2 /var/www/html/Tecniplas/wp-content/plugins/woocommerce/includes/wc-core-functions.php(344): include('/var/www/html/T...')
+#3 /var/www/html/Tecniplas/wp-content/plugins/yith-woocommerce-request-a-quote/includes/class.yith-ywraq-shortcodes.php(46): wc_get_template('request-quote.p...', Array, '', '/var/www/html/T...')
+#4 /var/www/html/Tecniplas/wp-includes/shortcodes.php(343): YITH_YWRAQ_Shortcodes->request_quote_list('', '', 'yith_ywraq_requ...')
+#5 [internal function]: do_shortcode_tag(Array)
+#6 /var/www/html/Tecniplas/wp-inc en /var/www/html/Tecniplas/wp-content/plugins/yith-woocommerce-request-a-quote/templates/request-quote-view.php en la línea 144
+
+2020-12-02T16:19:23+00:00 CRITICAL Uncaught Error: Call to a member function get_product_subtotal() on null in /var/www/html/Tecniplas/wp-content/plugins/yith-woocommerce-request-a-quote/templates/request-quote-view.php:144
+Stack trace:
+#0 /var/www/html/Tecniplas/wp-content/plugins/woocommerce/includes/wc-core-functions.php(344): include()
+#1 /var/www/html/Tecniplas/wp-content/plugins/yith-woocommerce-request-a-quote/templates/request-quote.php(26): wc_get_template('request-quote-v...', Array, '', '/var/www/html/T...')
+#2 /var/www/html/Tecniplas/wp-content/plugins/woocommerce/includes/wc-core-functions.php(344): include('/var/www/html/T...')
+#3 /var/www/html/Tecniplas/wp-content/plugins/yith-woocommerce-request-a-quote/includes/class.yith-ywraq-shortcodes.php(46): wc_get_template('request-quote.p...', Array, '', '/var/www/html/T...')
+#4 /var/www/html/Tecniplas/wp-includes/shortcodes.php(343): YITH_YWRAQ_Shortcodes->request_quote_list('', '', 'yith_ywraq_requ...')
+#5 [internal function]: do_shortcode_tag(Array)
+#6 /var/www/html/Tecniplas/wp-inc en /var/www/html/Tecniplas/wp-content/plugins/yith-woocommerce-request-a-quote/templates/request-quote-view.php en la línea 144
+
+2020-12-02T16:19:43+00:00 CRITICAL Uncaught Error: Call to a member function get_product_subtotal() on null in /var/www/html/Tecniplas/wp-content/plugins/yith-woocommerce-request-a-quote/templates/request-quote-view.php:144
+Stack trace:
+#0 /var/www/html/Tecniplas/wp-content/plugins/woocommerce/includes/wc-core-functions.php(344): include()
+#1 /var/www/html/Tecniplas/wp-content/plugins/yith-woocommerce-request-a-quote/templates/request-quote.php(26): wc_get_template('request-quote-v...', Array, '', '/var/www/html/T...')
+#2 /var/www/html/Tecniplas/wp-content/plugins/woocommerce/includes/wc-core-functions.php(344): include('/var/www/html/T...')
+#3 /var/www/html/Tecniplas/wp-content/plugins/yith-woocommerce-request-a-quote/includes/class.yith-ywraq-shortcodes.php(46): wc_get_template('request-quote.p...', Array, '', '/var/www/html/T...')
+#4 /var/www/html/Tecniplas/wp-includes/shortcodes.php(343): YITH_YWRAQ_Shortcodes->request_quote_list('', '', 'yith_ywraq_requ...')
+#5 [internal function]: do_shortcode_tag(Array)
+#6 /var/www/html/Tecniplas/wp-inc en /var/www/html/Tecniplas/wp-content/plugins/yith-woocommerce-request-a-quote/templates/request-quote-view.php en la línea 144
+
+2020-12-02T16:24:12+00:00 CRITICAL Uncaught Error: Call to a member function get_product_subtotal() on null in /var/www/html/Tecniplas/wp-content/plugins/yith-woocommerce-request-a-quote/templates/request-quote-view.php:144
+Stack trace:
+#0 /var/www/html/Tecniplas/wp-content/plugins/woocommerce/includes/wc-core-functions.php(344): include()
+#1 /var/www/html/Tecniplas/wp-content/plugins/yith-woocommerce-request-a-quote/templates/request-quote.php(26): wc_get_template('request-quote-v...', Array, '', '/var/www/html/T...')
+#2 /var/www/html/Tecniplas/wp-content/plugins/woocommerce/includes/wc-core-functions.php(344): include('/var/www/html/T...')
+#3 /var/www/html/Tecniplas/wp-content/plugins/yith-woocommerce-request-a-quote/includes/class.yith-ywraq-shortcodes.php(46): wc_get_template('request-quote.p...', Array, '', '/var/www/html/T...')
+#4 /var/www/html/Tecniplas/wp-includes/shortcodes.php(343): YITH_YWRAQ_Shortcodes->request_quote_list('', '', 'yith_ywraq_requ...')
+#5 [internal function]: do_shortcode_tag(Array)
+#6 /var/www/html/Tecniplas/wp-inc en /var/www/html/Tecniplas/wp-content/plugins/yith-woocommerce-request-a-quote/templates/request-quote-view.php en la línea 144
+
+2020-12-02T16:24:40+00:00 CRITICAL Uncaught Error: Call to a member function get_product_subtotal() on null in /var/www/html/Tecniplas/wp-content/plugins/yith-woocommerce-request-a-quote/templates/request-quote-view.php:144
+Stack trace:
+#0 /var/www/html/Tecniplas/wp-content/plugins/woocommerce/includes/wc-core-functions.php(344): include()
+#1 /var/www/html/Tecniplas/wp-content/plugins/yith-woocommerce-request-a-quote/templates/request-quote.php(26): wc_get_template('request-quote-v...', Array, '', '/var/www/html/T...')
+#2 /var/www/html/Tecniplas/wp-content/plugins/woocommerce/includes/wc-core-functions.php(344): include('/var/www/html/T...')
+#3 /var/www/html/Tecniplas/wp-content/plugins/yith-woocommerce-request-a-quote/includes/class.yith-ywraq-shortcodes.php(46): wc_get_template('request-quote.p...', Array, '', '/var/www/html/T...')
+#4 /var/www/html/Tecniplas/wp-includes/shortcodes.php(343): YITH_YWRAQ_Shortcodes->request_quote_list('', '', 'yith_ywraq_requ...')
+#5 [internal function]: do_shortcode_tag(Array)
+#6 /var/www/html/Tecniplas/wp-inc en /var/www/html/Tecniplas/wp-content/plugins/yith-woocommerce-request-a-quote/templates/request-quote-view.php en la línea 144
+
+2020-12-02T16:25:02+00:00 CRITICAL Uncaught Error: Call to a member function get_product_subtotal() on null in /var/www/html/Tecniplas/wp-content/plugins/yith-woocommerce-request-a-quote/templates/request-quote-view.php:144
+Stack trace:
+#0 /var/www/html/Tecniplas/wp-content/plugins/woocommerce/includes/wc-core-functions.php(344): include()
+#1 /var/www/html/Tecniplas/wp-content/plugins/yith-woocommerce-request-a-quote/templates/request-quote.php(26): wc_get_template('request-quote-v...', Array, '', '/var/www/html/T...')
+#2 /var/www/html/Tecniplas/wp-content/plugins/woocommerce/includes/wc-core-functions.php(344): include('/var/www/html/T...')
+#3 /var/www/html/Tecniplas/wp-content/plugins/yith-woocommerce-request-a-quote/includes/class.yith-ywraq-shortcodes.php(46): wc_get_template('request-quote.p...', Array, '', '/var/www/html/T...')
+#4 /var/www/html/Tecniplas/wp-includes/shortcodes.php(343): YITH_YWRAQ_Shortcodes->request_quote_list('', '', 'yith_ywraq_requ...')
+#5 [internal function]: do_shortcode_tag(Array)
+#6 /var/www/html/Tecniplas/wp-inc en /var/www/html/Tecniplas/wp-content/plugins/yith-woocommerce-request-a-quote/templates/request-quote-view.php en la línea 144
+
+2020-12-02T16:27:51+00:00 CRITICAL Uncaught Error: Call to a member function get_product_subtotal() on null in /var/www/html/Tecniplas/wp-content/plugins/yith-woocommerce-request-a-quote/templates/request-quote-view.php:144
+Stack trace:
+#0 /var/www/html/Tecniplas/wp-content/plugins/woocommerce/includes/wc-core-functions.php(344): include()
+#1 /var/www/html/Tecniplas/wp-content/plugins/yith-woocommerce-request-a-quote/templates/request-quote.php(26): wc_get_template('request-quote-v...', Array, '', '/var/www/html/T...')
+#2 /var/www/html/Tecniplas/wp-content/plugins/woocommerce/includes/wc-core-functions.php(344): include('/var/www/html/T...')
+#3 /var/www/html/Tecniplas/wp-content/plugins/yith-woocommerce-request-a-quote/includes/class.yith-ywraq-shortcodes.php(46): wc_get_template('request-quote.p...', Array, '', '/var/www/html/T...')
+#4 /var/www/html/Tecniplas/wp-includes/shortcodes.php(343): YITH_YWRAQ_Shortcodes->request_quote_list('', '', 'yith_ywraq_requ...')
+#5 [internal function]: do_shortcode_tag(Array)
+#6 /var/www/html/Tecniplas/wp-inc en /var/www/html/Tecniplas/wp-content/plugins/yith-woocommerce-request-a-quote/templates/request-quote-view.php en la línea 144
+
+2020-12-02T16:28:53+00:00 CRITICAL Uncaught Error: Call to a member function get_product_subtotal() on null in /var/www/html/Tecniplas/wp-content/plugins/yith-woocommerce-request-a-quote/templates/request-quote-view.php:144
+Stack trace:
+#0 /var/www/html/Tecniplas/wp-content/plugins/woocommerce/includes/wc-core-functions.php(344): include()
+#1 /var/www/html/Tecniplas/wp-content/plugins/yith-woocommerce-request-a-quote/templates/request-quote.php(26): wc_get_template('request-quote-v...', Array, '', '/var/www/html/T...')
+#2 /var/www/html/Tecniplas/wp-content/plugins/woocommerce/includes/wc-core-functions.php(344): include('/var/www/html/T...')
+#3 /var/www/html/Tecniplas/wp-content/plugins/yith-woocommerce-request-a-quote/includes/class.yith-ywraq-shortcodes.php(46): wc_get_template('request-quote.p...', Array, '', '/var/www/html/T...')
+#4 /var/www/html/Tecniplas/wp-includes/shortcodes.php(343): YITH_YWRAQ_Shortcodes->request_quote_list('', '', 'yith_ywraq_requ...')
+#5 [internal function]: do_shortcode_tag(Array)
+#6 /var/www/html/Tecniplas/wp-inc en /var/www/html/Tecniplas/wp-content/plugins/yith-woocommerce-request-a-quote/templates/request-quote-view.php en la línea 144
+
+2020-12-02T16:29:06+00:00 CRITICAL Uncaught Error: Call to a member function get_product_subtotal() on null in /var/www/html/Tecniplas/wp-content/plugins/yith-woocommerce-request-a-quote/templates/request-quote-view.php:144
+Stack trace:
+#0 /var/www/html/Tecniplas/wp-content/plugins/woocommerce/includes/wc-core-functions.php(344): include()
+#1 /var/www/html/Tecniplas/wp-content/plugins/yith-woocommerce-request-a-quote/templates/request-quote.php(26): wc_get_template('request-quote-v...', Array, '', '/var/www/html/T...')
+#2 /var/www/html/Tecniplas/wp-content/plugins/woocommerce/includes/wc-core-functions.php(344): include('/var/www/html/T...')
+#3 /var/www/html/Tecniplas/wp-content/plugins/yith-woocommerce-request-a-quote/includes/class.yith-ywraq-shortcodes.php(46): wc_get_template('request-quote.p...', Array, '', '/var/www/html/T...')
+#4 /var/www/html/Tecniplas/wp-includes/shortcodes.php(343): YITH_YWRAQ_Shortcodes->request_quote_list('', '', 'yith_ywraq_requ...')
+#5 [internal function]: do_shortcode_tag(Array)
+#6 /var/www/html/Tecniplas/wp-inc en /var/www/html/Tecniplas/wp-content/plugins/yith-woocommerce-request-a-quote/templates/request-quote-view.php en la línea 144
+
+2020-12-02T16:36:59+00:00 CRITICAL Uncaught Error: Call to a member function get_product_subtotal() on null in /var/www/html/Tecniplas/wp-content/plugins/yith-woocommerce-request-a-quote/templates/request-quote-view.php:144
+Stack trace:
+#0 /var/www/html/Tecniplas/wp-content/plugins/woocommerce/includes/wc-core-functions.php(344): include()
+#1 /var/www/html/Tecniplas/wp-content/plugins/yith-woocommerce-request-a-quote/templates/request-quote.php(26): wc_get_template('request-quote-v...', Array, '', '/var/www/html/T...')
+#2 /var/www/html/Tecniplas/wp-content/plugins/woocommerce/includes/wc-core-functions.php(344): include('/var/www/html/T...')
+#3 /var/www/html/Tecniplas/wp-content/plugins/yith-woocommerce-request-a-quote/includes/class.yith-ywraq-shortcodes.php(46): wc_get_template('request-quote.p...', Array, '', '/var/www/html/T...')
+#4 /var/www/html/Tecniplas/wp-includes/shortcodes.php(343): YITH_YWRAQ_Shortcodes->request_quote_list('', '', 'yith_ywraq_requ...')
+#5 [internal function]: do_shortcode_tag(Array)
+#6 /var/www/html/Tecniplas/wp-inc en /var/www/html/Tecniplas/wp-content/plugins/yith-woocommerce-request-a-quote/templates/request-quote-view.php en la línea 144
+
+2020-12-02T16:41:10+00:00 CRITICAL Uncaught Error: Call to a member function get_product_subtotal() on null in /var/www/html/Tecniplas/wp-content/plugins/yith-woocommerce-request-a-quote/templates/request-quote-view.php:144
+Stack trace:
+#0 /var/www/html/Tecniplas/wp-content/plugins/woocommerce/includes/wc-core-functions.php(344): include()
+#1 /var/www/html/Tecniplas/wp-content/plugins/yith-woocommerce-request-a-quote/templates/request-quote.php(26): wc_get_template('request-quote-v...', Array, '', '/var/www/html/T...')
+#2 /var/www/html/Tecniplas/wp-content/plugins/woocommerce/includes/wc-core-functions.php(344): include('/var/www/html/T...')
+#3 /var/www/html/Tecniplas/wp-content/plugins/yith-woocommerce-request-a-quote/includes/class.yith-ywraq-shortcodes.php(46): wc_get_template('request-quote.p...', Array, '', '/var/www/html/T...')
+#4 /var/www/html/Tecniplas/wp-includes/shortcodes.php(343): YITH_YWRAQ_Shortcodes->request_quote_list('', '', 'yith_ywraq_requ...')
+#5 [internal function]: do_shortcode_tag(Array)
+#6 /var/www/html/Tecniplas/wp-inc en /var/www/html/Tecniplas/wp-content/plugins/yith-woocommerce-request-a-quote/templates/request-quote-view.php en la línea 144
+
+2020-12-02T16:41:11+00:00 CRITICAL Uncaught Error: Call to a member function get_product_subtotal() on null in /var/www/html/Tecniplas/wp-content/plugins/yith-woocommerce-request-a-quote/templates/request-quote-view.php:144
+Stack trace:
+#0 /var/www/html/Tecniplas/wp-content/plugins/woocommerce/includes/wc-core-functions.php(344): include()
+#1 /var/www/html/Tecniplas/wp-content/plugins/yith-woocommerce-request-a-quote/templates/request-quote.php(26): wc_get_template('request-quote-v...', Array, '', '/var/www/html/T...')
+#2 /var/www/html/Tecniplas/wp-content/plugins/woocommerce/includes/wc-core-functions.php(344): include('/var/www/html/T...')
+#3 /var/www/html/Tecniplas/wp-content/plugins/yith-woocommerce-request-a-quote/includes/class.yith-ywraq-shortcodes.php(46): wc_get_template('request-quote.p...', Array, '', '/var/www/html/T...')
+#4 /var/www/html/Tecniplas/wp-includes/shortcodes.php(343): YITH_YWRAQ_Shortcodes->request_quote_list('', '', 'yith_ywraq_requ...')
+#5 [internal function]: do_shortcode_tag(Array)
+#6 /var/www/html/Tecniplas/wp-inc en /var/www/html/Tecniplas/wp-content/plugins/yith-woocommerce-request-a-quote/templates/request-quote-view.php en la línea 144
+
+2020-12-02T16:41:32+00:00 CRITICAL Uncaught Error: Call to a member function get_product_subtotal() on null in /var/www/html/Tecniplas/wp-content/plugins/yith-woocommerce-request-a-quote/templates/request-quote-view.php:144
+Stack trace:
+#0 /var/www/html/Tecniplas/wp-content/plugins/woocommerce/includes/wc-core-functions.php(344): include()
+#1 /var/www/html/Tecniplas/wp-content/plugins/yith-woocommerce-request-a-quote/templates/request-quote.php(26): wc_get_template('request-quote-v...', Array, '', '/var/www/html/T...')
+#2 /var/www/html/Tecniplas/wp-content/plugins/woocommerce/includes/wc-core-functions.php(344): include('/var/www/html/T...')
+#3 /var/www/html/Tecniplas/wp-content/plugins/yith-woocommerce-request-a-quote/includes/class.yith-ywraq-shortcodes.php(46): wc_get_template('request-quote.p...', Array, '', '/var/www/html/T...')
+#4 /var/www/html/Tecniplas/wp-includes/shortcodes.php(343): YITH_YWRAQ_Shortcodes->request_quote_list('', '', 'yith_ywraq_requ...')
+#5 [internal function]: do_shortcode_tag(Array)
+#6 /var/www/html/Tecniplas/wp-inc en /var/www/html/Tecniplas/wp-content/plugins/yith-woocommerce-request-a-quote/templates/request-quote-view.php en la línea 144
+
+2020-12-02T16:42:10+00:00 CRITICAL Uncaught Error: Call to a member function get_product_subtotal() on null in /var/www/html/Tecniplas/wp-content/plugins/yith-woocommerce-request-a-quote/templates/request-quote-view.php:144
+Stack trace:
+#0 /var/www/html/Tecniplas/wp-content/plugins/woocommerce/includes/wc-core-functions.php(344): include()
+#1 /var/www/html/Tecniplas/wp-content/plugins/yith-woocommerce-request-a-quote/templates/request-quote.php(26): wc_get_template('request-quote-v...', Array, '', '/var/www/html/T...')
+#2 /var/www/html/Tecniplas/wp-content/plugins/woocommerce/includes/wc-core-functions.php(344): include('/var/www/html/T...')
+#3 /var/www/html/Tecniplas/wp-content/plugins/yith-woocommerce-request-a-quote/includes/class.yith-ywraq-shortcodes.php(46): wc_get_template('request-quote.p...', Array, '', '/var/www/html/T...')
+#4 /var/www/html/Tecniplas/wp-includes/shortcodes.php(343): YITH_YWRAQ_Shortcodes->request_quote_list('', '', 'yith_ywraq_requ...')
+#5 [internal function]: do_shortcode_tag(Array)
+#6 /var/www/html/Tecniplas/wp-inc en /var/www/html/Tecniplas/wp-content/plugins/yith-woocommerce-request-a-quote/templates/request-quote-view.php en la línea 144
+
+2020-12-02T16:42:19+00:00 CRITICAL Uncaught Error: Call to a member function get_product_subtotal() on null in /var/www/html/Tecniplas/wp-content/plugins/yith-woocommerce-request-a-quote/templates/request-quote-view.php:144
+Stack trace:
+#0 /var/www/html/Tecniplas/wp-content/plugins/woocommerce/includes/wc-core-functions.php(344): include()
+#1 /var/www/html/Tecniplas/wp-content/plugins/yith-woocommerce-request-a-quote/templates/request-quote.php(26): wc_get_template('request-quote-v...', Array, '', '/var/www/html/T...')
+#2 /var/www/html/Tecniplas/wp-content/plugins/woocommerce/includes/wc-core-functions.php(344): include('/var/www/html/T...')
+#3 /var/www/html/Tecniplas/wp-content/plugins/yith-woocommerce-request-a-quote/includes/class.yith-ywraq-shortcodes.php(46): wc_get_template('request-quote.p...', Array, '', '/var/www/html/T...')
+#4 /var/www/html/Tecniplas/wp-includes/shortcodes.php(343): YITH_YWRAQ_Shortcodes->request_quote_list('', '', 'yith_ywraq_requ...')
+#5 [internal function]: do_shortcode_tag(Array)
+#6 /var/www/html/Tecniplas/wp-inc en /var/www/html/Tecniplas/wp-content/plugins/yith-woocommerce-request-a-quote/templates/request-quote-view.php en la línea 144
+
+2020-12-02T16:42:35+00:00 CRITICAL Uncaught Error: Call to a member function get_product_subtotal() on null in /var/www/html/Tecniplas/wp-content/plugins/yith-woocommerce-request-a-quote/templates/request-quote-view.php:144
+Stack trace:
+#0 /var/www/html/Tecniplas/wp-content/plugins/woocommerce/includes/wc-core-functions.php(344): include()
+#1 /var/www/html/Tecniplas/wp-content/plugins/yith-woocommerce-request-a-quote/templates/request-quote.php(26): wc_get_template('request-quote-v...', Array, '', '/var/www/html/T...')
+#2 /var/www/html/Tecniplas/wp-content/plugins/woocommerce/includes/wc-core-functions.php(344): include('/var/www/html/T...')
+#3 /var/www/html/Tecniplas/wp-content/plugins/yith-woocommerce-request-a-quote/includes/class.yith-ywraq-shortcodes.php(46): wc_get_template('request-quote.p...', Array, '', '/var/www/html/T...')
+#4 /var/www/html/Tecniplas/wp-includes/shortcodes.php(343): YITH_YWRAQ_Shortcodes->request_quote_list('', '', 'yith_ywraq_requ...')
+#5 [internal function]: do_shortcode_tag(Array)
+#6 /var/www/html/Tecniplas/wp-inc en /var/www/html/Tecniplas/wp-content/plugins/yith-woocommerce-request-a-quote/templates/request-quote-view.php en la línea 144
+
+2020-12-02T16:43:22+00:00 CRITICAL Uncaught Error: Call to a member function get_product_subtotal() on null in /var/www/html/Tecniplas/wp-content/plugins/yith-woocommerce-request-a-quote/templates/request-quote-view.php:144
+Stack trace:
+#0 /var/www/html/Tecniplas/wp-content/plugins/woocommerce/includes/wc-core-functions.php(344): include()
+#1 /var/www/html/Tecniplas/wp-content/plugins/yith-woocommerce-request-a-quote/templates/request-quote.php(26): wc_get_template('request-quote-v...', Array, '', '/var/www/html/T...')
+#2 /var/www/html/Tecniplas/wp-content/plugins/woocommerce/includes/wc-core-functions.php(344): include('/var/www/html/T...')
+#3 /var/www/html/Tecniplas/wp-content/plugins/yith-woocommerce-request-a-quote/includes/class.yith-ywraq-shortcodes.php(46): wc_get_template('request-quote.p...', Array, '', '/var/www/html/T...')
+#4 /var/www/html/Tecniplas/wp-includes/shortcodes.php(343): YITH_YWRAQ_Shortcodes->request_quote_list('', '', 'yith_ywraq_requ...')
+#5 [internal function]: do_shortcode_tag(Array)
+#6 /var/www/html/Tecniplas/wp-inc en /var/www/html/Tecniplas/wp-content/plugins/yith-woocommerce-request-a-quote/templates/request-quote-view.php en la línea 144
+
+2020-12-02T16:43:39+00:00 CRITICAL Uncaught Error: Call to a member function get_product_subtotal() on null in /var/www/html/Tecniplas/wp-content/plugins/yith-woocommerce-request-a-quote/templates/request-quote-view.php:144
+Stack trace:
+#0 /var/www/html/Tecniplas/wp-content/plugins/woocommerce/includes/wc-core-functions.php(344): include()
+#1 /var/www/html/Tecniplas/wp-content/plugins/yith-woocommerce-request-a-quote/templates/request-quote.php(26): wc_get_template('request-quote-v...', Array, '', '/var/www/html/T...')
+#2 /var/www/html/Tecniplas/wp-content/plugins/woocommerce/includes/wc-core-functions.php(344): include('/var/www/html/T...')
+#3 /var/www/html/Tecniplas/wp-content/plugins/yith-woocommerce-request-a-quote/includes/class.yith-ywraq-shortcodes.php(46): wc_get_template('request-quote.p...', Array, '', '/var/www/html/T...')
+#4 /var/www/html/Tecniplas/wp-includes/shortcodes.php(343): YITH_YWRAQ_Shortcodes->request_quote_list('', '', 'yith_ywraq_requ...')
+#5 [internal function]: do_shortcode_tag(Array)
+#6 /var/www/html/Tecniplas/wp-inc en /var/www/html/Tecniplas/wp-content/plugins/yith-woocommerce-request-a-quote/templates/request-quote-view.php en la línea 144
+
+2020-12-02T16:43:47+00:00 CRITICAL Uncaught Error: Call to a member function get_product_subtotal() on null in /var/www/html/Tecniplas/wp-content/plugins/yith-woocommerce-request-a-quote/templates/request-quote-view.php:144
+Stack trace:
+#0 /var/www/html/Tecniplas/wp-content/plugins/woocommerce/includes/wc-core-functions.php(344): include()
+#1 /var/www/html/Tecniplas/wp-content/plugins/yith-woocommerce-request-a-quote/templates/request-quote.php(26): wc_get_template('request-quote-v...', Array, '', '/var/www/html/T...')
+#2 /var/www/html/Tecniplas/wp-content/plugins/woocommerce/includes/wc-core-functions.php(344): include('/var/www/html/T...')
+#3 /var/www/html/Tecniplas/wp-content/plugins/yith-woocommerce-request-a-quote/includes/class.yith-ywraq-shortcodes.php(46): wc_get_template('request-quote.p...', Array, '', '/var/www/html/T...')
+#4 /var/www/html/Tecniplas/wp-includes/shortcodes.php(343): YITH_YWRAQ_Shortcodes->request_quote_list('', '', 'yith_ywraq_requ...')
+#5 [internal function]: do_shortcode_tag(Array)
+#6 /var/www/html/Tecniplas/wp-inc en /var/www/html/Tecniplas/wp-content/plugins/yith-woocommerce-request-a-quote/templates/request-quote-view.php en la línea 144
+
+2020-12-02T16:43:53+00:00 CRITICAL Uncaught Error: Call to a member function get_product_subtotal() on null in /var/www/html/Tecniplas/wp-content/plugins/yith-woocommerce-request-a-quote/templates/request-quote-view.php:144
+Stack trace:
+#0 /var/www/html/Tecniplas/wp-content/plugins/woocommerce/includes/wc-core-functions.php(344): include()
+#1 /var/www/html/Tecniplas/wp-content/plugins/yith-woocommerce-request-a-quote/templates/request-quote.php(26): wc_get_template('request-quote-v...', Array, '', '/var/www/html/T...')
+#2 /var/www/html/Tecniplas/wp-content/plugins/woocommerce/includes/wc-core-functions.php(344): include('/var/www/html/T...')
+#3 /var/www/html/Tecniplas/wp-content/plugins/yith-woocommerce-request-a-quote/includes/class.yith-ywraq-shortcodes.php(46): wc_get_template('request-quote.p...', Array, '', '/var/www/html/T...')
+#4 /var/www/html/Tecniplas/wp-includes/shortcodes.php(343): YITH_YWRAQ_Shortcodes->request_quote_list('', '', 'yith_ywraq_requ...')
+#5 [internal function]: do_shortcode_tag(Array)
+#6 /var/www/html/Tecniplas/wp-inc en /var/www/html/Tecniplas/wp-content/plugins/yith-woocommerce-request-a-quote/templates/request-quote-view.php en la línea 144
+
+2020-12-02T16:43:57+00:00 CRITICAL Uncaught Error: Call to a member function get_product_subtotal() on null in /var/www/html/Tecniplas/wp-content/plugins/yith-woocommerce-request-a-quote/templates/request-quote-view.php:144
+Stack trace:
+#0 /var/www/html/Tecniplas/wp-content/plugins/woocommerce/includes/wc-core-functions.php(344): include()
+#1 /var/www/html/Tecniplas/wp-content/plugins/yith-woocommerce-request-a-quote/templates/request-quote.php(26): wc_get_template('request-quote-v...', Array, '', '/var/www/html/T...')
+#2 /var/www/html/Tecniplas/wp-content/plugins/woocommerce/includes/wc-core-functions.php(344): include('/var/www/html/T...')
+#3 /var/www/html/Tecniplas/wp-content/plugins/yith-woocommerce-request-a-quote/includes/class.yith-ywraq-shortcodes.php(46): wc_get_template('request-quote.p...', Array, '', '/var/www/html/T...')
+#4 /var/www/html/Tecniplas/wp-includes/shortcodes.php(343): YITH_YWRAQ_Shortcodes->request_quote_list('', '', 'yith_ywraq_requ...')
+#5 [internal function]: do_shortcode_tag(Array)
+#6 /var/www/html/Tecniplas/wp-inc en /var/www/html/Tecniplas/wp-content/plugins/yith-woocommerce-request-a-quote/templates/request-quote-view.php en la línea 144
+
+2020-12-02T20:20:34+00:00 CRITICAL Uncaught Error: Call to a member function get_product_subtotal() on null in /var/www/html/Tecniplas/wp-content/plugins/yith-woocommerce-request-a-quote/templates/request-quote-view.php:144
+Stack trace:
+#0 /var/www/html/Tecniplas/wp-content/plugins/woocommerce/includes/wc-core-functions.php(344): include()
+#1 /var/www/html/Tecniplas/wp-content/plugins/yith-woocommerce-request-a-quote/templates/request-quote.php(26): wc_get_template('request-quote-v...', Array, '', '/var/www/html/T...')
+#2 /var/www/html/Tecniplas/wp-content/plugins/woocommerce/includes/wc-core-functions.php(344): include('/var/www/html/T...')
+#3 /var/www/html/Tecniplas/wp-content/plugins/yith-woocommerce-request-a-quote/includes/class.yith-ywraq-shortcodes.php(46): wc_get_template('request-quote.p...', Array, '', '/var/www/html/T...')
+#4 /var/www/html/Tecniplas/wp-includes/shortcodes.php(343): YITH_YWRAQ_Shortcodes->request_quote_list('', '', 'yith_ywraq_requ...')
+#5 [internal function]: do_shortcode_tag(Array)
+#6 /var/www/html/Tecniplas/wp-inc en /var/www/html/Tecniplas/wp-content/plugins/yith-woocommerce-request-a-quote/templates/request-quote-view.php en la línea 144
+
